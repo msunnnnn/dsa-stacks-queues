@@ -56,23 +56,23 @@ describe("pop", function () {
   });
 });
 
-describe("peek", function () {
-  it("returns the value at the start of the stack", function () {
-    stack.push(3);
-    expect(stack.peek()).toBe(3);
+// describe("peek", function () {
+//   it("returns the value at the start of the stack", function () {
+//     stack.push(3);
+//     expect(stack.peek()).toBe(3);
 
-    stack.push(5);
-    expect(stack.peek()).toBe(5);
-  });
-});
+//     stack.push(5);
+//     expect(stack.peek()).toBe(5);
+//   });
+// });
 
-describe("isEmpty", function () {
-  it("returns true for empty stacks", function () {
-    expect(stack.isEmpty()).toBe(true);
-  });
+// describe("isEmpty", function () {
+//   it("returns true for empty stacks", function () {
+//     expect(stack.isEmpty()).toBe(true);
+//   });
 
-  it("returns false for nonempty stacks", function () {
-    stack.push(3);
-    expect(stack.isEmpty()).toBe(false);
-  });
-});
+//   it("returns false for nonempty stacks", function () {
+//     stack.push(3);
+//     expect(stack.isEmpty()).toBe(false);
+//   });
+// });
